@@ -1,0 +1,21 @@
+{
+  "name": "bhama_industries_react_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --prefix vite-project",
+    "build": "npm run build --prefix vite-project",
+    "preview": "npm run preview --prefix vite-project",
+    "start": "npm run build --prefix vite-project && npm run preview --prefix vite-project",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
