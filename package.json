@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run dev --prefix vite-project",
+    "dev": "vite",
     "build": "npm run build --prefix vite-project",
     "preview": "npm run preview --prefix vite-project",
     "start": "npm run build --prefix vite-project && npm run preview --prefix vite-project",
@@ -17,5 +17,8 @@
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
   }
 }
